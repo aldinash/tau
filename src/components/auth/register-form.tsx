@@ -57,7 +57,7 @@ const RegisterForm = () => {
                     <Input
                       {...field}
                       type="email"
-                      placeholder="johndoe@gmail.com"
+                      placeholder="example@email.com"
                     />
                   </FormControl>
                   <FormMessage />
@@ -71,7 +71,7 @@ const RegisterForm = () => {
                 <FormItem>
                   <FormLabel>Name</FormLabel>
                   <FormControl>
-                    <Input {...field} placeholder="John Doe" />
+                    <Input {...field} placeholder="Pedro" />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
